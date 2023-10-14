@@ -30,7 +30,7 @@ function Age(){
             <h5>Enter your date of birth</h5>
             <input class="form-control my-2 c1" style={center} type="date" value={year} onChange={handleClick}/>
             <button class="btn btn-primary text-light my-2" onClick={cal}>Calculate Age</button>
-            {Print()};
+            {Print()}
         </div>
     )
 }
